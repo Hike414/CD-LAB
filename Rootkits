@@ -1,0 +1,17 @@
+Rkhunter and chkrootkit are used to check any rootkits installed in kali linux. To get rkhunter tool, type the following command
+>>sudo su
+Enter the password for kali
+>>apt-get install rkhunter
+It will install the rkhunter in kali
+>> rootkit --check
+It will scan the kali for any root kits installed.
+
+Using chkrootkit
+>>sudo su
+Enter the password for kali
+>>apt-get install chkrootkit
+It will install the chkrootkit in kali
+>> chkrootkit -h
+It will give the options for chkrootkit as follows
+To scan the system just type as follows
+>>chkrootkit
